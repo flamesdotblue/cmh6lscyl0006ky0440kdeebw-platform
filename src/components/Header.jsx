@@ -13,9 +13,9 @@ export default function Header() {
           </span>
         </a>
         <nav className="hidden items-center gap-8 md:flex">
-          <a href="#services" className="text-sm text-zinc-300 hover:text-yellow-300 transition-colors">Services</a>
-          <a href="#work" className="text-sm text-zinc-300 hover:text-yellow-300 transition-colors">Work</a>
-          <a href="#book-call" className="text-sm text-zinc-300 hover:text-yellow-300 transition-colors">Contact</a>
+          <a href="#services" className="text-sm text-zinc-300 transition-colors hover:text-yellow-300">Services</a>
+          <a href="#work" className="text-sm text-zinc-300 transition-colors hover:text-yellow-300">Work</a>
+          <a href="#book-call" className="text-sm text-zinc-300 transition-colors hover:text-yellow-300">Contact</a>
         </nav>
         <a
           href="https://calendly.com/your-agency/intro-call"
