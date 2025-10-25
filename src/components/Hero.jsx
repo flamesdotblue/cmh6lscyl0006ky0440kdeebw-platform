@@ -1,8 +1,11 @@
 import { ArrowRight, Star } from 'lucide-react';
+import BackgroundFX from './BackgroundFX';
 
 export default function Hero() {
   return (
     <section className="relative isolate overflow-hidden">
+      <BackgroundFX />
+
       <div className="pointer-events-none absolute inset-0 -z-10 [mask-image:radial-gradient(60%_60%_at_50%_30%,black_35%,transparent)]">
         <div className="absolute -top-32 left-1/2 h-96 w-[48rem] -translate-x-1/2 rounded-full bg-yellow-400/10 blur-3xl" />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-yellow-400/40 to-transparent" />
