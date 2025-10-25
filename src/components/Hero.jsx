@@ -26,7 +26,7 @@ export default function Hero() {
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-md bg-yellow-400 px-6 py-3 text-sm font-semibold text-black shadow-sm transition-colors hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400/40"
-            >
+           >
               Book a call
               <ArrowRight size={16} />
             </a>
@@ -38,7 +38,7 @@ export default function Hero() {
             </a>
           </div>
           <p className="mt-4 text-xs text-zinc-500">
-            No pressure discovery call. Well audit your site and share actionable next steps.
+            No pressure discovery call. We'll audit your site and share actionable next steps.
           </p>
         </div>
       </div>
